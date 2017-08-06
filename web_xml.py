@@ -2,7 +2,8 @@ import urllib.request, urllib.parse, urllib.error
 import xml.etree.ElementTree as ET
 
 while True:
-    url = input('Enter location: ')
+
+    url = input('Enter url: ')
     if(len(url) < 1): break
 
     print('Retrieving', url)
